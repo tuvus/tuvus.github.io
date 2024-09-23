@@ -1,9 +1,9 @@
-h1 {
+.title {
     text-align: center;
     color: white;
 }
 
-h3 {
-    text-align: center;
-    color: white;
+.topbar {
+    background-color: #2d2d2d;
+    overflow: hidden;
 }
