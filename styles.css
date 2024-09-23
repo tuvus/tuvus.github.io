@@ -2,11 +2,28 @@
     text-align: center;
     color: white;
     padding: 0;
+    margin: 0;
     font-family: Sans-serif, serif;
 }
 
 .topbar {
     background-color: rgba(45, 45, 45, 0.8);
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    position: fixed;
+    margin-top: 4px;
+    left: 2%;
+    right: 2%;
+    border-radius: 10px;
+}
+img {
+    padding: 0;
+    margin: 0;
+    display: block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
