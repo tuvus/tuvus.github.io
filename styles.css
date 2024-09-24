@@ -16,6 +16,10 @@
     position: absolute;
     z-index: 1;
 }
+.horizontalpanel {
+    display: flex;
+    flex-direction: row;
+}
 img {
     padding: 0;
     margin: 0;
