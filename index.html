@@ -11,7 +11,7 @@
     <div class="panel" style="top: 10px; padding-top: 15px; padding-bottom: 15px">
         <h3 class="whitetext" style="position: absolute; left: 30px; top: 40%">Oskar Niesen</h3>
         <h1 class="whitetext" style="align-self: center; font-size: 40px">Akroid<br></h1>
-        <p class="whitetext" style="padding-top: 2px">v 0.8.0</p>
+        <p class="whitetext" style="padding-top: 2px">v0.8.0</p>
 
         <a class="whitetext" href="https://github.com/tuvus" style="position: absolute; right: 30px; top: 40%; color: deepskyblue; font-weight:bold">GitHub</a>
 
@@ -77,7 +77,37 @@
         </div>
         <div class="container">
             <img src="docs/assets/HomeScreen.png" alt="" width="100%" height="100%">
-            <div class="panel horizontalpanel" style="top: 10px; flex-direction: row-reverse">
+            <div class="panel horizontalpanel" style="top: 10px; right: 2%; width: 35%;">
+                <div style="position: relative; left: 10%; width: 80%;">
+                    <h2 class="whitetext">Change Log</h2>
+                    <h3 class="whitetext" style="padding-top: 10px">v0.9.0</h3>
+                    <p class="whitetext" style="padding-top: 10px">
+                        Here is a list of features either in-progress or completed for the v0.9.0 release
+                        aiming to improve the user experience
+                    </p>
+                    <ul class="whitetext" style="padding-bottom: 10px; padding-top: 10px; text-align: left">
+                        <li>Better UI indicators for campaign instructions</li>
+                        <li>Added a selection outline around all selected or highlighted units</li>
+                        <li>Continued Parallelization of more parts of the code</li>
+                        <li>Added an asynchronous loading screen to prevent the program from freezing</li>
+                        <li>Added projectile turret, laser turret and ship thrusters sound effects</li>
+                    </ul>
+                    <h3 class="whitetext" style="padding-top: 10px">v0.8.0</h3>
+                    <p class="whitetext" style="padding-top: 10px">
+                        The main goal of v0.8.0 was to refactor the entire project separating the UI from the game logic.
+                        Apart from some performance improvements there weren't any major changes to any game features.
+                    </p>
+                    <ul class="whitetext" style="padding-bottom: 10px; padding-top: 10px; text-align: left">
+                        <li>Restructured the entire project</li>
+                        <li>Made the game logic ready to have test cases</li>
+                        <li>Parallelized parts of the game such as finding enemies, updating projectiles, and other non-state changing calculations</li>
+                        <li>Improved code readability and maintainability</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="panel horizontalpanel" style="bottom: 10px; flex-direction: row-reverse">
                 <img src="docs/assets/Aterna.png" alt="" style="z-index: 4; position: relative; right: 10px" height="220px">
                 <div style="position: relative; right: 5%; width: 60%;">
                     <h2 class="whitetext">Next Steps</h2>
