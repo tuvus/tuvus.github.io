@@ -18,21 +18,21 @@
 
 </div>
 <div>
-    <div class="container" style="height: 90vh">
+    <div class="container">
+        <img class="backgroundpicture" src="docs/assets/BigBattleHD.png" alt="">
         <div class="panel" style="bottom: 10px">
             <h2 class="whitetext">A Space Real Time Strategy Game</h2>
             <p class="whitetext" style="padding-top: 10px">Build ships, command fleets and conquer space!</p>
         </div>
-        <img class="backgroundpicture h-full" src="docs/assets/BigBattleHD.png" alt="">
     </div>
 
-    <div class="container">
-        <div class="panel" style="align-content: center; text-align: center">
+    <div class="container" style="height: auto">
+        <div class="panel" style="position: relative; align-content: center; text-align: center">
             <h2 class="whitetext" style="padding-bottom: 10px;">WebGL Demo</h2>
             <img src="TemplateData/fullscreen-button.png" id="unity-fullscreen-button" alt="Fullscreen Button"
                  style="border-radius: 10px; position: relative; left: 48%">
             <div id="unity-container" class="unity-desktop">
-                <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+                <canvas id="unity-canvas" tabindex="-1"></canvas>
                 <div id="unity-loading-bar">
                     <div id="unity-logo"></div>
                     <div id="unity-progress-bar-empty">
@@ -129,8 +129,8 @@
 
             } else {
                 // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-                canvas.style.width = "960px";
-                canvas.style.height = "600px";
+                canvas.style.width = "98%";
+                // canvas.style.height = "600px";
             }
 
             document.querySelector("#unity-loading-bar").style.display = "block";
@@ -154,11 +154,12 @@
             document.body.appendChild(script);
 
         </script>
-        <img src="docs/assets/StarBackgroundLarge.png" alt="" width="100%">
+        <img class="backgroundpicture" style="position: absolute;" src="docs/assets/StarBackgroundLarge.png" alt="">
+
     </div>
 
     <div class="container">
-        <img src="docs/assets/Expansion.png" alt="" width="100%">
+        <img class="backgroundpicture" src="docs/assets/Expansion.png" alt="">
         <div class="panel" style="top: 10px">
             <div style="position: relative; left: 20%; width: 60%;">
                 <h2 class="whitetext">About</h2>
@@ -201,7 +202,7 @@
     </div>
 
     <div class="container">
-        <img src="docs/assets/CampaignSmall.png" alt="" width="100%" height="100%">
+        <img class="backgroundpicture" src="docs/assets/CampaignSmall.png" alt="">
         <div class="panel horizontalpanel" style="bottom: 10px; width: 35%;">
             <div style="position: relative; left: 10%; width: 80%;">
                 <h2 class="whitetext">Campaign</h2>
@@ -220,7 +221,7 @@
 
     </div>
     <div class="container">
-        <img src="docs/assets/HomeScreen.png" alt="" width="100%" height="100%">
+        <img class="backgroundpicture" src="docs/assets/HomeScreen.png" alt="">
         <div class="panel horizontalpanel" style="top: 10px; right: 2%; width: 35%;">
             <div style="position: relative; left: 10%; width: 80%;">
                 <h2 class="whitetext">Change Log</h2>
