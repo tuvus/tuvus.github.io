@@ -32,6 +32,12 @@ img {
     user-select: none;
     z-index: -1;
 }
+.backgroundpicture {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 .container {
     position: relative;
 }
